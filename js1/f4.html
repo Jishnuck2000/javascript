@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let string = prompt("enter word")
+        length = string.length
+        //  document.write(length)
+        for (let i = 0; i < length; i++) {
+            if (string[i] == 'a' || string[i] == 'e' || string[i] == 'i' || string[i] == 'O' || string[i] =='u') {
+                continue;
+            }
+            else {
+                document.write(string[i])
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

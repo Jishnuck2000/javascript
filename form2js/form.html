@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+<body>
+    <div class="form">
+    <div class="bg"><p class="student">Student Registration Form</p>
+<form>
+    <label class="l1">First Name:</label>
+    <input type="text" value="" placeholder="Enter your last name" class="i1" id="firstname">
+   <span id="firstname1"></span> <br>
+    <label class="l1">Last Name:</label>
+    <input type="text" value="" placeholder="Enter your first name" class="i2" id="lastname">
+    <span id="lastname1"></span><br>
+    <label class="l1">Email:</label>
+    <input type="text" value="" placeholder="it should contain @" class="i3" id="email">
+    <span id="email1"></span><br>
+    <label class="l1">Mobile:</label>
+    <input type="number" value="" placeholder="only 10 digits are allowed" class="i4" id="mobile">
+    <span id="mobile1"></span><br>
+    <label class="l1">Gender:</label>
+<input type="radio" value="male" class="radio" id="genderM">Male
+<input type="radio" value="female" id="genderF">Female
+<span id="gender"></span><br>
+<label class="l1">Date of Birth:</label>
+    <input type="date" value="" placeholder="mm/dd/yyyy" class="i5" id="date">
+    <span id="date1"></span><br>
+    <label class="l1">Address:</label>
+                    
+                        <textarea class="i6" id="adrs"></textarea>
+                        <span id="adrs1"></span><br>
+                        
+                        <label class="l1">City:</label>
+                        <input type="text" value=""  class="i7" id="city">  
+                        <span id="city1"></span><br>
+                        <label class="l1">Area PIN:</label>
+                        <input type="number" value=""  class="i8" id="area">  
+                        <span id="area1"></span> <br>                  
+                        <label class="l1">State:</label>
+                        <input type="text" value=""  class="i9" id="state">
+                        <span id="state1"></span><br>
+                        <label class="l1">Qualification:</label>
+                    
+                    
+                        <select class="i10">
+                            <selected><option value="Select qualification">Select Qualification</option></selected>
+                            <option value="bca">BCA</option>
+                            <option value="bsc">BSC</option>
+                            <option value="diploma">Diploma</option>
+                        </select>   <br>  
+                        
+                        <label class="l1">Specialization:</label>
+                    
+                    
+                        <input type="checkbox" name="Specialization" value="computer science" class="i11">Computer science<br>
+                        <input type="checkbox" name="Specialization" value="Information Technology" class="i12">Information Technology<br>
+                        <input type="checkbox" name="Specialization" value="computer architecture" class="i13">Computer Architecture<br>
+                        <input type="checkbox" name="Specialization" value="tele communication" class="i14">Tele Communication<br>
+
+                        <label class="l1">Password</label>
+                        <input type="password" class="i15" id="pass">
+                        <span id="pass1"></span><br>
+
+                        <input type="button" value="Register" class="button" id="Register" onclick="register()">
+
+
+                    
+
+</form>
+
+
+    </div></div>
+    <script src="./form.js"></script>
+</body>
+</html>

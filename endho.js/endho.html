@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to DOM Events</h1>
+    <div id="customText">
+        <p>DOM (Document Object Model) Events are a signal that something has occured, or is occuring, and can be triggered by user
+            interations or by the browser. Client-side scripting languages like JavaScript, JScript, ECMAScript, VBScript, and Java can
+            register various event handlers or listeners on the elements nodes inside a DOM tree, such as in HTML, XHTML, XUL, and SVG documents.
+        </p>
+    </div>
+    <div id="divItem">
+        <img id="imageItem" onmouseover="ChaneImage()" onmouseout="resetImage()" src="./images/s1.png" alt="">
+    </div>
+
+    <button onclick="change()">Change</button>
+
+    <!-- disapperar an image by clicking a button -->
+
+    <button onclick="hide()">Disappear</button>
+
+    <!-- TO SHOW THE ELEMENT -->
+
+    <button ondblclick="reset()">Reset</button>
+
+    <script src="./event.js"></script>
+    
+</body>
+</html>

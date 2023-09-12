@@ -1,0 +1,85 @@
+.bg{
+    height: 900px;
+    width:700px;
+    background-color:beige;
+}
+.field{
+    margin-left: 430px;
+    padding-top: 10px;
+}
+.i1{
+    height: 30px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.l1{
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+.i2{
+    height: 30px;
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i3{
+    height: 30px;
+    width: 300px;
+    margin-left: 13px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i4{
+    height: 30px;
+    width: 300px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i5{
+    height: 30px;
+    width: 300px;
+    margin-left: 33px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i6{
+    height: 30px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i7{
+    height: 30px;
+    width: 300px;
+    margin-left: 28px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i8{
+    height: 30px;
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.i9{
+    height: 30px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+}
+.button{
+    width: 130px;
+    height: 30px;
+    background-color: brown;
+    color: aliceblue;
+    margin-left: 176px;
+    border-radius: 10px;
+}
